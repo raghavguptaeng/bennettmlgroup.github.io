@@ -1,2 +1,2 @@
-# bennettmlgroup.github.io
+# Bennett Machine Learning Group
 Group Website
