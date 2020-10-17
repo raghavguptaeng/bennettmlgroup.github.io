@@ -1,93 +1,282 @@
-<!DOCTYPE html>
-<!-- Author: Sunisth Kumar 2020-->
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Bennett Machine Learning Group</title>
-    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-    <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,600" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,600" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<title>Bennett Machine Learning Group</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 </head>
 
-<body>
-    <nav class="navbar navbar-default navbar-fixed-top" id="mainNav">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display-->
-            <div class="navbar-header">
-                
-                <a class="navbar-brand page-scroll" href="/">Bennett ML Group</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling-->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="page-scroll" href="#joinus">Join US</a></li>
-                    <li><a class="page-scroll" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <section id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9">
-                    <h1 id="page-title">Bennett Machine Learning Group</h1>
-                    <h2>Bennett ML Group is a community of undergraduates aimed at promoting and fostering the growing interest around machine intelligence on campus.</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="joinus">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="section-heading">
-                        <h1>Join us</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <p>Bennett ML Group holds (nearly) weekly reading groups on topics in machine learning, from theory to computer vision to systems applications</p>
-                    <h2>Prerequisites</h2>
-                    <p>You should have a basic ML background, or a basic software engineering background.</p>
-                    <h2>Applying</h2>
-                    <p> Please fill this <a href="https://forms.gle/HH5g9ZiwPqvkWKpBA">form</a> to apply. We expect that members will commit 2-4 hours a week as a minimum.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="gray" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="section-heading">
-                        <h1>Contact us</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1 text-center">
-                    <h3>If you have any questions contact us at</h3>
-                    <h2><code>e19cse367@bennett.edu.in</code></h2>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center"><a href="/"><img src="/img/logo.png"></a></div>
-            </div>
-        </div>
-    </footer>
-    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="/js/theme.js"></script>
+<body class="is-preload">
+
+	<!-- Header -->
+	<div id="header">
+
+		<div class="introduction">
+
+			<!-- Logo -->
+			<div id="logo">
+				<span class="image avatar">
+					<img src="images/logo.png" alt="" />
+				</span>
+				<!-- <h1 id="title">BU</h1>
+				<p>Bennett Machine Learning Group</p> -->
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li>
+						<a href="#introduction" id="introduction-link">
+							<span class="icon">Introduction</span>
+						</a>
+					</li>
+					<li>
+						<a href="#overview" id="overview-link">
+							<span class="icon">Overview</span>
+						</a>
+					</li>
+					<li>
+						<a href="#researchgroupapplications" id="applications-link">
+							<span class="icon">Research Group Applications</span>
+						</a>
+					</li>
+					<li>
+						<a href="#currentmembers" id="currentmembers-link">
+							<span class="icon">People</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="bottom">
+
+			<!-- Social Icons -->
+			<ul class="icons">
+				<li>
+					<a href="https://github.com/bennettmlgroup" class="icon fa-github">
+						<span class="label">Github</span>
+					</a>
+				</li>
+				<!-- <li>
+					<a href="" class="icon brands fa-twitter">
+						<span class="label">Twitter</span>
+					</a>
+				</li> -->
+				<li>
+					<a href="mailto:e19cse367@bennett.edu.in" class="icon fa-envelope">
+						<span class="label">Email</span>
+					</a>
+				</li>
+
+
+			</ul>
+		</div>
+	</div>
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- Introduction -->
+		<section id="introduction" class="one dark cover">
+			<div class="container">
+
+				<header>
+					<h2 class="alt">Bennett Machine Learning Group</h2>
+					<p>Undergraduate ML research
+						<br /> and education.</p>
+				</header>
+
+				<footer>
+					<a href="#overview" class="button scrolly">Read More</a>
+				</footer>
+
+			</div>
+		</section>
+
+		<!-- Overview -->
+		<section id="overview" class="two">
+			<div class="container">
+
+				<header>
+					<h2>Overview</h2>
+				</header>
+
+				<p style="text-align:left"> Bennett Machine Learning Group is a community of undergraduates aimed at 
+					promoting and fostering the growing interest around machine intelligence on campus.</a>
+					<br/>
+					<br/> Our primary efforts are described below:
+					<br/>
+					<br/>
+
+
+					<strong>Reading Group</strong>
+					<br/> We will meet weekly to discuss papers (and research in general) in the field of machine learning. The goal is to familiarize
+					people with state of the art research. This is meant for students with some experience, as we will be reading cutting
+					edge papers.
+					<br/>
+					The reading group meeting times for Fall 2020 will be every Saturday 6:00-6:45 pm IST with  <a href="">this zoom link</a> (password ). The schedule,
+					together with paper links and slides, is available <a href="">here</a>.
+					<br/>
+					<br/>
+
+
+					<strong>Research Group </strong>
+					<br/> This group will work closely with mentors to aim for a publication at ML conferences. People that have experience will be a good fit, as we will hit the ground running.
+					<br/> Apply
+					<a href="#researchgroupapplications" class="scrolly">here</a>.
+					<br/>
+					<br/>
+				</p>
+			</div>
+		</section>
+
+		<!-- Applications -->
+		<section id="researchgroupapplications" class="two">
+			<div class="container">
+
+				<header>
+					<h2>Applications</h2>
+				</header>
+
+				<p style="text-align:left">
+					Update: Applications for Fall 2020 are now closed. They will reopen in Fall 2021.
+					<br/>
+					<br/>
+					Please submit applications for Fall 2020
+					<a href="https://forms.gle/HH5g9ZiwPqvkWKpBA">here</a> (open until 11:59 PM IST Monday, October 5th).
+					<br/>
+					<br/>
+				</p>
+			</div>
+		</section>
+
+		<!-- Current Members -->
+		<section id="currentmembers" class="three">
+			<div class="container" style="text-align:center">
+				<header>
+					<h2>Current Members</h2>
+				</header>
+
+				<div class="row">
+					<div class="col-3">
+						<article class="item">
+							<a href="" target="_blank" class="image fit"></a>
+							<header>
+								<h3> Sunisth Kumar </h3>
+							</header>
+						</article>
+					</div>
+					<div class="col-3">
+						<article class="item">
+							<a href="" target="_blank" class="image fit"></a>
+							<header>
+								<h3> Anwesh Badapanda </h3>
+							</header>
+						</article>
+					</div>
+					<div class="col-3">
+						<article class="item">
+							<a href="" target="_blank" class="image fit"></a>
+							<header>
+								<h3> Pulkit Vyas </h3>
+							</header>
+						</article>
+					</div>
+					<div class="col-3">
+						<article class="item">
+							<a href="" target="_blank" class="image fit"></a>
+							<header>
+								<h3> Yoshi Bansal </h3>
+							</header>
+						</article>
+					</div>
+					<div class="col-3">
+						<article class="item">
+							<a href="" target="_blank" class="image fit"></a>
+							<header>
+								<h3> Raghav Gupta </h3>
+							</header>
+						</article>
+					</div>
+					<div class="col-3">
+						<article class="item">
+							<a href="" target="_blank" class="image fit"></a>
+							<header>
+								<h3> Aryan Rajoria </h3>
+							</header>
+						</article>
+					</div>
+					<div class="col-3">
+						<article class="item">
+							<a href="" target="_blank" class="image fit"></a>
+							<header>
+								<h3> Mihir Sirpaul </h3>
+							</header>
+						</article>
+					</div>
+					<div class="col-3">
+						<article class="item">
+							<a href="" target="_blank" class="image fit"></a>
+							<header>
+								<h3> Raunak Ash Gulati </h3>
+							</header>
+						</article>
+					</div>
+					<div class="col-3">
+						<article class="item">
+							<a href="" target="_blank" class="image fit"></a>
+							<header>
+								<h3> Chirag Saxena </h3>
+							</header>
+						</article>
+					</div>
+				
+				</div>
+			</div>
+		</section>
+
+		<!-- researchadvisors
+		<section id="researchadvisors" class="three">
+			<div class="container" style="text-align:center">
+				<header>
+					<h2>Research Advisors</h2>
+				</header>
+				</div>
+			</div>
+		</section> -->
+	</div>
+
+	<!-- Footer -->
+	<div id="footer">
+
+		<!-- Copyright -->
+		<ul class="copyright">
+			<li>&copy; BennettML. All rights reserved.</li>
+			<li>Design:
+				<a href="http://html5up.net">HTML5 UP</a>
+			</li>
+		</ul>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
